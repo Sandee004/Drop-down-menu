@@ -1,0 +1,131 @@
+* {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.whole-background {
+    width: 1600px;
+    height: 1000px;
+    background-color: #F5F5F5;
+    padding-top: 40px;
+}
+.whole {
+    width: 1440px;
+    height: 900px;
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+}
+.navbar{
+    font-weight: 300;
+    color: black;
+}
+.snap{
+    margin: 5px 40px 0 30px;
+    vertical-align: middle;
+}
+.navbar a svg{
+    vertical-align: middle;
+}
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    margin-right: 40px;
+}
+.dropbtn:hover{
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover{
+    background-color: transparent;
+}
+.dropdown-content a svg{
+    margin-right: 10px;
+}
+.login, .register{
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+.login{
+    margin-left: 450px;
+}
+.register{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 8px;
+}
+.login:hover, .register:hover{
+    cursor: pointer;
+}
+
+
+
+.side-note{
+    float: left;
+    margin-left: 150px;
+}
+.main-header{
+    font-size: 80px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.main-details{
+    font-size: 25px;
+    margin: 60px 0;
+}
+.more{
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 700;
+    border-radius: 7px;
+    font-size: 18px
+}
+.more:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+.big-img{
+    margin-right: 200px;
+    margin-top: 120px;
+    width: 450px;
+    height: 600px;
+    float: right;
+}
+.footers{
+    margin-top: 130px;
+}
+.foot{
+    margin-right: 40px;
+}
