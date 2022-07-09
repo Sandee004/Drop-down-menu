@@ -4,17 +4,17 @@
 }
 .whole-background {
     display: none;
-}
+}/*
 .android-background {
     width: 376px;
     height: 750px;
     background-color: red;
-}
+}*/
 .body-android {
     border: 1px solid black;
     margin: auto;
     width: 375px;
-    height: 590px;
+    height: 100vh;
     background-color: white;
 }
 .snap1 {
