@@ -96,7 +96,7 @@
 .overlay .closebtn {
     position: absolute;
     top: -10;
-    right: 6;
+    left: 26;
     float: right;
     font-size: 12px;
 }
@@ -162,8 +162,16 @@
     border: 0.8px solid black;
     margin-top: 10px;
 }
-
-
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
 
 
@@ -300,4 +308,14 @@
     .foot {
         margin-right: 40px;
     }
+    .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 }
