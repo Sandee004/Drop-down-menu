@@ -14,7 +14,7 @@
     border: 1px solid black;
     margin: auto;
     width: 375px;
-    height: 700px;
+    height: 620px;
     background-color: white;
 }
 .snap1 {
@@ -97,6 +97,7 @@
     position: absolute;
     top: -10;
     right: 6;
+    float: right;
     font-size: 12px;
 }
 .dropbtn {
