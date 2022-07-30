@@ -4,12 +4,7 @@
 }
 .whole-background {
     display: none;
-}/*
-.android-background {
-    width: 376px;
-    height: 750px;
-    background-color: red;
-}*/
+}
 .body-android {
     border: 1px solid black;
     margin: auto;
@@ -183,14 +178,14 @@
     }
     .whole-background {
         display: block;
-        width: 1600px;
+       /" width: 1600px; "/
         height: 1000px;
         background-color: #F5F5F5;
         padding-top: 40px;
     }
     .whole {
         display: block;
-        width: 1440px;
+        width: 100%;
         height: 900px;
         border: 1px solid black;
         background-color: white;
@@ -314,8 +309,5 @@
     color: black;
     font-weight: bold;
     margin-top: 20px;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
 }
